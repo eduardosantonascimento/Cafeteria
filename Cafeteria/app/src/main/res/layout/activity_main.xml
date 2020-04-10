@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.eduardoespiritosanto.cafeteria.MainActivity">
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/banner"
+        android:cropToPadding="true"
+        android:layout_weight="8"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recanto do Café"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:padding="1dp"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rua das Amendoeiras, 197 "
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="www.recantocafe.com "
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        android:padding="1dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="www.recantocafe.com "
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:padding="1dp"
+        />
+
+
+</LinearLayout>
